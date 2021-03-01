@@ -25,9 +25,4 @@ public class Livro {
 		this.qtdLivros=qtdLivros;
 	}
 	
-	public String toString() {
-		String retorno = "Título: " + this.title + ", Exemplares: "+this.qtdLivros;
-		return retorno;
-	}
-	
 }

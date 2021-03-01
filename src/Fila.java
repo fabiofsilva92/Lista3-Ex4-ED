@@ -39,7 +39,7 @@ public class Fila {
 	 public String print() {
 		 String aux = "";
 		 for(int i = 0 ; i<finalFila; i++) {
-			 aux = aux + "\n" + data[i].toString();
+			 aux = aux + "\n" + "Título: " + data[i].getTitle() + ", Exemplares: " + data[i].getQtdLivros();
 		 }
 		 return aux;
 	 }
